@@ -6,6 +6,7 @@ Introductory astronomy survey courses for non-science majors (”Astro 101”) r
 250,000 students per year (Prather et al., 2009). This course is regarded as an
 important (and often last) way of improving quantitative and scientific reasoning in 10%
 of U. S. college graduates.
+
 Astronomical ideas are challenging for introductory students to grasp at a conceptual
 level, even when using a variety of active learning techniques (French and Prather, 2020).
 Many of the more-challenging concepts revolve around the dynamical and temporal evolution
@@ -20,6 +21,7 @@ embedded in PDFs, although this is not yet common. The format is stable, small, 
 and easy to create. Animated gifs also transcend language, making them instantly accessible
 to the whole world, especially when coupled with descriptive “alt-text” for the blind and
 visually impaired community.
+
 An informal poll of BYU students unsurprisingly found that 100% of students think that
 animations are more impactful and/or lead to better learning than static images. Detailed
 studies (e.g., Ploetzner et al., 2021) on the use of instructional animations show that they
@@ -51,6 +53,7 @@ forces always represented by green arrows) to strengthen understanding across to
 Development, management, and advertising of AAGL will be significantly supported by a
 dedicated undergraduate students likely taken from BYU’s award-winning physics teaching
 and computer animation programs.
+
 We will encourage multiple educational uses for the animated gifs that are part of AAGL:
 uploading to Wikimedia Commons for use in astronomy-themed Wikipedia pages; used in
 BYU’s Astronomy classes; and used by dozens of Astro 101 instructors after advertising

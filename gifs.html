@@ -93,8 +93,10 @@ div#banner-content {
 <li>Orbits and Gravity</li>
 </ol>
 
-    <script>
-        let data = ["Ram", "Shyam", "Sita", "Gita"];
+    <script
+        var fs = require('fs');
+        var files = fs.readdirSync('/gifs/chapter_1/');
+        let data = files;
         let list = document.getElementById("myList1");
         for (i = 0; i < data.length; ++i) {
             let li = document.createElement('li');

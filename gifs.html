@@ -86,12 +86,22 @@ div#banner-content {
 
 <div class="content">
 <h1>Openstax Astronomy Gifs</h1>
-<p id="demo"></p>
-</div>  
+<ol>
+<li>Science and the Universe: A Brief Tour</li>
+  <ul id="myList1"></ul>
+<li>Observing the Sky: The Birth of Astronomy?</li>
+<li>Orbits and Gravity</li>
+</ol>
 
-<script>
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
-</script> 
+    <script>
+        let data = ["Ram", "Shyam", "Sita", "Gita"];
+        let list = document.getElementById("myList1");
+        for (i = 0; i < data.length; ++i) {
+            let li = document.createElement('li');
+            li.innerText = data[i];
+            list.appendChild(li);
+        }
+    </script>
 
 </body>
 </html>

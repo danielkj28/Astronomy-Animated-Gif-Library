@@ -51,7 +51,7 @@ body {
 }
 
 div#banner { 
-  position: absolute; 
+  position: fixed; 
   top: 0; 
   left: 0; 
   height: 70px;
@@ -121,9 +121,7 @@ div#banner-content {
 </ol>
 
     <script
-        var fs = require('fs');
-        var files = fs.readdirSync('gifs/chapter_1/');
-        let data = files;
+        let data = ['this','that'];
         let list = document.getElementById("myList1");
         for (i = 0; i < data.length; ++i) {
             let li = document.createElement('li');

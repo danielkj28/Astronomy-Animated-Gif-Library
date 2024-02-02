@@ -1,140 +1,266 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>AAGL-File List</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <style>
-        /* Remove the navbar's default margin-bottom and rounded borders */
-        .navbar {
-            margin-bottom: 0;
-            border-radius: 0;
-        }
-
-        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-        .row.content {
-            height: 850px
-        }
-
-        /* Set gray background color and 100% height */
-        .sidenav {
-            padding-top: 20px;
-            background-color: #f1f1f1;
-            height: 100%;
-        }
-
-        /* Set black background color, white text and some padding */
-        footer {
-            background-color: #555;
-            color: white;
-            padding: 15px;
-        }
-
-        /* On small screens, set height to 'auto' for sidenav and grid */
-        @media screen and (max-width: 767px) {
-            .sidenav {
-                height: auto;
-                padding: 15px;
-            }
-
-            .row.content {
-                height: auto;
-            }
-            .dropdown-toggle {
-                text-align: left
-            }
-        }
-    </style>
-</head>
-<body>
-
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <img src="images\haumea.jpg" class="rounded float-left" alt="haumea" height="50" width="50">
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li>
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Gif Library
-                        </a>
-                        <ul class="dropdown-menu">
-                           <li><a href="gifs_chapter/chapter_1.html">Chapter 1: Science and the Universe</a></li>
-                            <li><a href="gifs_chapter/chapter_2.html">Chapter 2: Observing the Sky</a></li>
-                            <li><a href="gifs_chapter/chapter_3.html">Chapter 3: Orbits & Gravity</a></li>
-                            <li><a href="gifs_chapter/chapter_4.html">Chapter 4: Earth, Moon, & Sky</a></li>
-                            <li><a href="gifs_chapter/chapter_5.html">Chapter 5: Radiation & Spectra</a></li>
-                            <li><a href="gifs_chapter/chapter_6.html">Chapter 6: Astronomical Instruments</a></li>
-                            <li><a href="gifs_chapter/chapter_7.html">Chapter 7: Other Worlds</a></li>
-                            <li><a href="gifs_chapter/chapter_8.html">Chapter 8: Earth</a></li>
-                            <li><a href="gifs_chapter/chapter_9.html">Chapter 9: Cratered Worlds</a></li>
-                            <li><a href="gifs_chapter/chapter_10.html">Chapter 10: Venus & Mars</a></li>
-                            <li><a href="gifs_chapter/chapter_11.html">Chapter 11: Giant Planets</a></li>
-                            <li><a href="gifs_chapter/chapter_12.html">Chapter 12: Rings, Moons, & Pluto</a></li>
-                            <li><a href="gifs_chapter/chapter_13.html">Chapter 13: Comets & Asteroids</a></li>
-                            <li><a href="gifs_chapter/chapter_14.html">Chapter 14: Solar System Origins</a></li>
-                            <li><a href="gifs_chapter/chapter_15.html">Chapter 15: The Sun - Classification</a></li>
-                            <li><a href="gifs_chapter/chapter_16.html">Chapter 16: The Sun - Energy</a></li>
-                            <li><a href="gifs_chapter/chapter_17.html">Chapter 17: Starlight</a></li>
-                            <li><a href="gifs_chapter/chapter_18.html">Chapter 18: The Stars</a></li>
-                            <li><a href="gifs_chapter/chapter_19.html">Chapter 19: Distances</a></li>
-                            <li><a href="gifs_chapter/chapter_20.html">Chapter 20: Gas & Dust</a></li>
-                            <li><a href="gifs_chapter/chapter_21.html">Chapter 21: Exoplanets</a></li>
-                            <li><a href="gifs_chapter/chapter_22.html">Chapter 22: Lifecyle of Stars</a></li>
-                            <li><a href="gifs_chapter/chapter_23.html">Chapter 23: Death of Stars</a></li>
-                            <li><a href="gifs_chapter/chapter_24.html">Chapter 24: Black Holes</a></li>
-                            <li><a href="gifs_chapter/chapter_25.html">Chapter 25: The Milky Way</a></li>
-                            <li><a href="gifs_chapter/chapter_26.html">Chapter 26: Galaxies</a></li>
-                            <li><a href="gifs_chapter/chapter_27.html">Chapter 27: Active Galaxies</a></li>
-                            <li><a href="gifs_chapter/chapter_28.html">Chapter 28: Galactic Evolution</a></li>
-                            <li><a href="gifs_chapter/chapter_29.html">Chapter 29: The Big Bang</a></li>
-                            <li><a href="gifs_chapter/chapter_30.html">Chapter 30: Life in the Universe</a></li>
-
-                        </ul>
-                    </li>
-                    <li><a href="gif_index.html">Index</a></li>
-                    <li class="active"><a href="file_list.html">File List</a></li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-
-    <div class="container-fluid text-center">
-        <div class="row content">
-            <div class="col-sm-2 sidenav">
-                <p><a href="#">Link</a></p>
-                <p><a href="#">Link</a></p>
-                <p><a href="#">Link</a></p>
-            </div>
-            <div class="col-sm-8 text-left">
-                <h1>All Files</h1>
-
-            </div>
-            <div class="col-sm-2 sidenav">
-                <div class="well">
-                    <p>ADS</p>
-                </div>
-                <div class="well">
-                    <p>ADS</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer class="container-fluid text-center">
-        <p>Footer Text</p>
-    </footer>
-
-</body>
-</html>
+<!DOCTYPE html> 
+ <html lang="en"> 
+ <head> 
+ <title>AAGL-Files</title>
+<meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+<style> 
+ .navbar { 
+ margin-bottom: 0; 
+ border-radius: 0; 
+ } 
+ /* Set height of the grid so .sidenav can be 100% (adjust as needed) */ 
+.row.content { 
+ height: 850px 
+ } 
+.sidenav { 
+ padding-top: 20px; 
+ background-color: #f1f1f1; 
+ height: 100%; 
+ } 
+footer { 
+ background-color: #555; 
+ color: white; 
+ padding: 15px; 
+ } 
+/* On small screens, set height to auto for sidenav and grid */ 
+ @media screen and (max-width: 767px) { 
+.sidenav { 
+ height: auto; 
+ padding: 15px; 
+ } 
+.row.content { 
+ height: auto; 
+ } 
+ .dropdown-toggle { 
+ text-align: left 
+ } 
+} 
+ </style> 
+ </head> 
+ <body> 
+<nav class="navbar navbar-inverse"> 
+<div class="container-fluid"> 
+<div class="navbar-header"> 
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> 
+<span class="icon-bar"></span> 
+<span class="icon-bar"></span> 
+<span class="icon-bar"></span> 
+</button> 
+<img src="images\haumea.jpg" class="rounded float-left" alt="haumea" height="50" width="50"> 
+</div> 
+<div class="collapse navbar-collapse" id="myNavbar"> 
+<ul class="nav navbar-nav"> 
+<li><a href="index.html">Home</a></li> 
+<li> 
+<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+Gif Library 
+</a> 
+<ul class="dropdown-menu"> 
+<li><a href="gifs_chapter/chapter_1.html">Chapter 1: Science and the Universe</a></li> 
+<li><a href="gifs_chapter/chapter_2.html">Chapter 2: Observing the Sky</a></li> 
+<li><a href="gifs_chapter/chapter_3.html">Chapter 3: Orbits & Gravity</a></li> 
+<li><a href="gifs_chapter/chapter_4.html">Chapter 4: Earth, Moon, & Sky</a></li> 
+<li><a href="gifs_chapter/chapter_5.html">Chapter 5: Radiation & Spectra</a></li> 
+<li><a href="gifs_chapter/chapter_6.html">Chapter 6: Astronomical Instraments</a></li> 
+<li><a href="gifs_chapter/chapter_7.html">Chapter 7: Other Worlds</a></li> 
+<li><a href="gifs_chapter/chapter_8.html">Chapter 8: Earth</a></li> 
+<li><a href="gifs_chapter/chapter_9.html">Chapter 9: Cratered Worlds</a></li> 
+<li><a href="gifs_chapter/chapter_10.html">Chapter 10: Venus & Mars</a></li> 
+<li><a href="gifs_chapter/chapter_11.html">Chapter 11: Giant Planets</a></li> 
+<li><a href="gifs_chapter/chapter_12.html">Chapter 12: Rings, Moons, & Pluto</a></li> 
+<li><a href="gifs_chapter/chapter_13.html">Chapter 13: Coments & Asteroids</a></li> 
+<li><a href="gifs_chapter/chapter_14.html">Chapter 14: Solar System Origins</a></li> 
+<li><a href="gifs_chapter/chapter_15.html">Chapter 15: The Sun - Classification</a></li> 
+<li><a href="gifs_chapter/chapter_16.html">Chapter 16: The Sun - Energy</a></li> 
+<li><a href="gifs_chapter/chapter_17.html">Chapter 17: Starlight</a></li> 
+<li><a href="gifs_chapter/chapter_18.html">Chapter 18: The Stars</a></li> 
+<li><a href="gifs_chapter/chapter_19.html">Chapter 19: Distances</a></li> 
+<li><a href="gifs_chapter/chapter_20.html">Chapter 20: Gas & Dust</a></li> 
+<li><a href="gifs_chapter/chapter_21.html">Chapter 21: Exoplanets</a></li> 
+<li><a href="gifs_chapter/chapter_22.html">Chapter 22: Lifecycle of Stars</a></li> 
+<li><a href="gifs_chapter/chapter_23.html">Chapter 23: Death of Stars</a></li> 
+<li><a href="gifs_chapter/chapter_24.html">Chapter 24: Black Holes</a></li> 
+<li><a href="gifs_chapter/chapter_25.html">Chapter 25: The Milky Way</a></li> 
+<li><a href="gifs_chapter/chapter_26.html">Chapter 26: Galaxies</a></li> 
+<li><a href="gifs_chapter/chapter_27.html">Chapter 27: Active Galaxies</a></li> 
+<li><a href="gifs_chapter/chapter_28.html">Chapter 28: Galactic Evolution</a></li> 
+<li><a href="gifs_chapter/chapter_29.html">Chapter 29: The Big Bang</a></li> 
+<li><a href="gifs_chapter/chapter_30.html">Chapter 30: Life in the Univers</a></li> 
+</ul> 
+</li> 
+<li><a href="gif_index.html">Index</a></li> 
+<li class="active"><a href="file_list.html">File List</a></li> 
+</ul> 
+</div> 
+</div> 
+</nav> 
+<div class="container-fluid text-center"> 
+<div class="row content"> 
+<div class="col-sm-2 sidenav"> 
+<p><a href="#">Link</a></p> 
+<p><a href="#">Link</a></p> 
+<p><a href="#">Link</a></p> 
+</div> 
+<div class="col-sm-8 text-left"> 
+<h1>All Files</h1> 
+<ul> 
+<li>Chapter 1
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 2
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 3
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 4
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 5
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 6
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 7
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 8
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 9
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 10
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 11
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 12
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 13
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 14
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 15
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 16
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 17
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 18
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 19
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 20
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 21
+<ul> 
+<li>Radial Velocity
+<ul>
+<li>
+<a href="gifs_chapter/chapter_21/radial_velocity/radial_velocity.gif" target="_blank">radial_velocity.gif</a> 
+</li>
+<li>
+<a href="gifs_chapter/chapter_21/radial_velocity/radial_velocity_src.py" target="_blank">Source Code</a> 
+</li>
+<li>
+<a href="https://github.com/danielkj28/Astronomy-Animated-Gif-Library/tree/main/gifs_chapter/chapter_21/radial_velocity/radial_velocity_images/" target="_blank">Generating Images</a> 
+</li>
+<li>
+<a href="https://github.com/danielkj28/Astronomy-Animated-Gif-Library/tree/main/gifs_chapter/chapter_21/radial_velocity/radial_velocity_additional/" target="_blank">Additional Materials</a> 
+</li>
+<li>
+Tags: Exoplanets
+</li>
+</ul>
+</li> 
+</ul> 
+</li> 
+<li>Chapter 22
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 23
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 24
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 25
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 26
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 27
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 28
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 29
+<ul> 
+</ul> 
+</li> 
+<li>Chapter 30
+<ul> 
+</ul> 
+</li> 
+</ul> 
+</div> 
+<div class="col-sm-2 sidenav"> 
+<div class="well"> 
+<p>ADS</p> 
+</div> 
+<div class="well"> 
+<p>ADS</p> 
+</div> 
+</div> 
+</div> 
+</div> 
+<footer class="container-fluid text-center"> 
+<p>Footer Text</p> 
+</footer> 
+</body> 
+</html> 

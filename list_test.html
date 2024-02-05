@@ -32,6 +32,19 @@
             color: white;
             padding: 15px;
         }
+        ul {
+            padding: 0px;
+            list-style: none;
+        }
+
+        li {
+            display: block
+        }
+
+            li ul {
+                display: none;
+                padding-left: 10px;
+            }
 
         /* On small screens, set height to 'auto' for sidenav and grid */
         @media screen and (max-width: 767px) {
@@ -119,9 +132,8 @@
             <div class="col-sm-8 text-left">
                 <h1>All Files</h1>
 
-                <script>('li a').click(function () {
-                        $(this).siblings('ul').toggle();
-                    })</script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
                 <ul>
                     <li>
                         <a href="#" title="">first</a>

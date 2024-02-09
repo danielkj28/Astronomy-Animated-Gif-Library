@@ -1,2 +1,4 @@
 name,display_name,chapter(int),source code (y/n), gif images (y/n), supplemental material (y/n), tags
-radial_velocity,Radial Velocity,21,y,y,y,exoplanets
+radial_velocity,Radial Velocity,21,n,n,n,exoplanets
+keplers_first,Kepler's First Law,3,y,y,n,orbits
+keplers_first_ellipse,Kepler's First Law - ecc < 1,3,y,y,n,orbits
